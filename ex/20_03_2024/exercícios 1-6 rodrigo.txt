@@ -1,0 +1,21 @@
+1.
+a) Verdadeiro.
+b) Falso.
+c) Verdadeiro.
+d) Verdadeiro.
+
+2.
+Vai imprimir o valor de a, depois o de b e em seguida o valor apontado por pt, no caso, está armazenado o endereço da variável a, 1002.
+
+3.
+Vai imprimir o valor armazenado no endereço de b. No caso, 7.
+
+4.
+1002020.
+
+5.
+Se coloca um asterisco antes da variável. Desse jeito TIPO *ptr.
+
+6.
+Contém um endereço de memória.
+

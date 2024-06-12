@@ -8,12 +8,12 @@ using namespace std;
 
 void bubbleD(int vet[])
 {
-    for (int x = 0; x < T - 1; x++) {
-        for (int y = x ; y < T - x - 1; y++) {
-            if (vet[x] < vet[y]) {
-                int aux = vet[x];
-                vet[x] = vet[y];
-                vet[y] = aux;
+    for (int x = 1; x < T; x++) {
+        for (int y = 4; y >= x; y--) {
+            if (vet[y] < vet[y-1]) {
+                int aux = vet[y];
+                vet[y] = vet[y-1];
+                vet[y-1] = aux;
             }
         }
     }
@@ -27,7 +27,7 @@ void printArray(int vet[]) {
 }
 
 int main() {
-    int vet[T] = {16,17,19,20};
+    int vet[T] = {20,19,16,10};
 
     bubbleD(vet);
 

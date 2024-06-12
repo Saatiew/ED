@@ -13,7 +13,7 @@ int main()
 {
     setlocale(LC_ALL, "Portuguese");
 
-    int tamanho = 10;
+    int tamanho = 3;
     string nomes[tamanho];
 
     cout << "Digite 10 nomes:" << endl;
